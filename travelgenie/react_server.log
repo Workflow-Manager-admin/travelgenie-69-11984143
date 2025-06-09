@@ -2,9 +2,9 @@
 > react-kavia@0.1.0 start
 > react-scripts start
 
-(node:4197) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:10218) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-(node:4197) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:10218) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 Starting the development server...
 
 Compiled successfully!
@@ -17,6 +17,1827 @@ You can now view react-kavia in the browser.
 Note that the development build is not optimized.
 To create a production build, use npm run build.
 
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+  Line 115:25:  'sendMessage' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/ChatPage.js
+  Line 9:20:   'setMessages' is assigned a value but never used  no-unused-vars
+  Line 16:19:  'setWaiting' is assigned a value but never used   no-unused-vars
+  Line 26:12:  'getDemoAIReply' is defined but never used        no-unused-vars
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 115:25:  'sendMessage' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/ChatPage.js
+  Line 60:12:  'getDemoAIReply' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/ChatPage.js
+  Line 60:12:  'getDemoAIReply' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/ChatPage.js
+  Line 60:12:  'getDemoAIReply' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/ChatPage.js
+  Line 60:12:  'getDemoAIReply' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: 'return' outside of function. (69:2) (69:2)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: 'return' outside of function. (69:2)
+
+  67 |   }
+  68 |
+> 69 |   return (
+     |   ^
+  70 |     <div>
+  71 |       <div className="title" style={{ fontSize: '2rem', marginBottom: 10, color: "#1E90FF" }}>
+  72 |         AI Travel Chatbot
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12780:12)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12383:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:36)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseProgram (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12280:10)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12270:25)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5909:28)
+    at FlowParserMixin.parse (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:14120:10)
+    at parse (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:14154:38)
+    at parser (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:261:32)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:223:11)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 69:2:  Parsing error: 'return' outside of function. (69:2)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: 'return' outside of function. (69:2) (69:2)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: 'return' outside of function. (69:2)
+
+  67 |   }
+  68 |
+> 69 |   return (
+     |   ^
+  70 |     <div>
+  71 |       <div className="title" style={{ fontSize: '2rem', marginBottom: 10, color: "#1E90FF" }}>
+  72 |         AI Travel Chatbot
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12780:12)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12383:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:36)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseProgram (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12280:10)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12270:25)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5909:28)
+    at FlowParserMixin.parse (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:14120:10)
+    at parse (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:14154:38)
+    at parser (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:261:32)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:223:11)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 69:2:  Parsing error: 'return' outside of function. (69:2)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: 'return' outside of function. (69:2) (69:2)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: 'return' outside of function. (69:2)
+
+  67 |   }
+  68 |
+> 69 |   return (
+     |   ^
+  70 |     <div>
+  71 |       <div className="title" style={{ fontSize: '2rem', marginBottom: 10, color: "#1E90FF" }}>
+  72 |         AI Travel Chatbot
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12780:12)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12383:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:36)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseProgram (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12280:10)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12270:25)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5909:28)
+    at FlowParserMixin.parse (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:14120:10)
+    at parse (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:14154:38)
+    at parser (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:261:32)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:223:11)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 69:2:  Parsing error: 'return' outside of function. (69:2)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: 'return' outside of function. (69:2) (69:2)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: 'return' outside of function. (69:2)
+
+  67 |   }
+  68 |
+> 69 |   return (
+     |   ^
+  70 |     <div>
+  71 |       <div className="title" style={{ fontSize: '2rem', marginBottom: 10, color: "#1E90FF" }}>
+  72 |         AI Travel Chatbot
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12780:12)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12383:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:36)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseProgram (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12280:10)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12270:25)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5909:28)
+    at FlowParserMixin.parse (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:14120:10)
+    at parse (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:14154:38)
+    at parser (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:261:32)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:223:11)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 69:2:  Parsing error: 'return' outside of function. (69:2)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: 'return' outside of function. (69:2) (69:2)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: 'return' outside of function. (69:2)
+
+  67 |   }
+  68 |
+> 69 |   return (
+     |   ^
+  70 |     <div>
+  71 |       <div className="title" style={{ fontSize: '2rem', marginBottom: 10, color: "#1E90FF" }}>
+  72 |         AI Travel Chatbot
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12780:12)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12383:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:36)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseProgram (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12280:10)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12270:25)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5909:28)
+    at FlowParserMixin.parse (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:14120:10)
+    at parse (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:14154:38)
+    at parser (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:261:32)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:223:11)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 69:2:  Parsing error: 'return' outside of function. (69:2)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: 'return' outside of function. (69:2) (69:2)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: 'return' outside of function. (69:2)
+
+  67 |   }
+  68 |
+> 69 |   return (
+     |   ^
+  70 |     <div>
+  71 |       <div className="title" style={{ fontSize: '2rem', marginBottom: 10, color: "#1E90FF" }}>
+  72 |         AI Travel Chatbot
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.parseReturnStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12780:12)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12437:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12383:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:36)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseProgram (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12280:10)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12270:25)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5909:28)
+    at FlowParserMixin.parse (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:14120:10)
+    at parse (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:14154:38)
+    at parser (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:261:32)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/gensync/index.js:223:11)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 69:2:  Parsing error: 'return' outside of function. (69:2)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Unterminated regular expression. (66:5) (66:5)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Unterminated regular expression. (66:5)
+
+  64 |      // return "When packing for your trip, consider the climate and activities: bring layers, comfy shoes, and don't forget essential documents!";
+  65 |     //if (/hello|hi|hey/i.test(text)) return "Hello! How can I assist you with your travel plans?";
+> 66 |     /return "That's an excellent question! Let me look up the best answer for you. 🌏";
+     |      ^
+  67 |   //}
+  68 |
+  69 |   return (
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.readRegexp (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3056:20)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10988:16)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5773:18)
+    at FlowParserMixin.parseExpressionBase (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10475:23)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10471:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseExpression (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10471:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12539:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12430:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12383:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:36)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseProgram (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12280:10)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12270:25)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5909:28)
+    at FlowParserMixin.parse (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:14120:10)
+    at parse (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:14154:38)
+    at parser (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/core/lib/transform.js:22:33)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 66:5:  Parsing error: Unterminated regular expression. (66:5)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+  Line 116:25:  'sendMessage' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/ChatPage.js
+  Line 9:20:   'setMessages' is assigned a value but never used  no-unused-vars
+  Line 16:19:  'setWaiting' is assigned a value but never used   no-unused-vars
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 116:25:  'sendMessage' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Unexpected token (34:31) (34:31)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Unexpected token (34:31)
+
+  32 |
+  33 |   try {
+> 34 |     const apiUrl = process.env.;
+     |                                ^
+  35 |     const apiKey = process.env.REACT_APP_CHAT_API_KEY;
+  36 |
+  37 |     console.log("API URL:", apiUrl);
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.unexpected (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3347:16)
+    at FlowParserMixin.parseIdentifierName (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11881:12)
+    at FlowParserMixin.parseIdentifier (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11864:23)
+    at FlowParserMixin.parseMember (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10823:28)
+    at FlowParserMixin.parseSubscript (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10802:21)
+    at FlowParserMixin.parseSubscript (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5874:18)
+    at FlowParserMixin.parseSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10771:19)
+    at FlowParserMixin.parseSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5840:18)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10762:17)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5773:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseVar (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13028:91)
+    at FlowParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12874:10)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseTryStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12849:23)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12443:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12534:25)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 34:31:  Parsing error: Unexpected token (34:31)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Unexpected token (35:31) (35:31)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Unexpected token (35:31)
+
+  33 |   try {
+  34 |     const apiUrl = process.env.REACT_APP_COHERE_API_URL;
+> 35 |     const apiKey = process.env.;
+     |                                ^
+  36 |
+  37 |     console.log("API URL:", apiUrl);
+  38 |     console.log("API KEY:", apiKey ? "Loaded ✅" : "Missing ❌");
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.unexpected (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3347:16)
+    at FlowParserMixin.parseIdentifierName (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11881:12)
+    at FlowParserMixin.parseIdentifier (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11864:23)
+    at FlowParserMixin.parseMember (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10823:28)
+    at FlowParserMixin.parseSubscript (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10802:21)
+    at FlowParserMixin.parseSubscript (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5874:18)
+    at FlowParserMixin.parseSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10771:19)
+    at FlowParserMixin.parseSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5840:18)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10762:17)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5773:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseVar (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13028:91)
+    at FlowParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12874:10)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseTryStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12849:23)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12443:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12534:25)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 35:31:  Parsing error: Unexpected token (35:31)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Unexpected token (35:4) (35:4)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Unexpected token (35:4)
+
+  33 |   try {
+  34 |     const apiUrl = //process.env.REACT_APP_COHERE_API_URL;
+> 35 |     const apiKey = process.env.REACT_APP_COHERE_KE;
+     |     ^
+  36 |
+  37 |     console.log("API URL:", apiUrl);
+  38 |     console.log("API KEY:", apiKey ? "Loaded ✅" : "Missing ❌");
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.unexpected (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3347:16)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11126:16)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5773:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseVar (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13028:91)
+    at FlowParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12874:10)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseTryStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12849:23)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12443:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12534:25)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 35:4:  Parsing error: Unexpected token (35:4)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Unterminated string constant. (34:19) (34:19)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Unterminated string constant. (34:19)
+
+  32 |
+  33 |   try {
+> 34 |     const apiUrl = 'https://docs.cohere.com/v2/reference/about
+     |                    ^
+  35 | '//process.env.REACT_APP_COHERE_API_URL;
+  36 |     const apiKey = process.env.REACT_APP_COHERE_KE;
+  37 |
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at Object.unterminated (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2395:20)
+    at readStringContents (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2137:16)
+    at FlowParserMixin.readString (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3226:9)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2986:14)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:6970:11)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5419:13)
+    at FlowParserMixin.nextToken (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2510:10)
+    at FlowParserMixin.next (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2423:10)
+    at FlowParserMixin.eat (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2427:12)
+    at FlowParserMixin.parseVar (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13028:25)
+    at FlowParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12874:10)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseTryStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12849:23)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12443:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12534:25)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 34:19:  Parsing error: Unterminated string constant. (34:19)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Unterminated string constant. (34:19) (34:19)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Unterminated string constant. (34:19)
+
+  32 |
+  33 |   try {
+> 34 |     const apiUrl = 'https://docs.cohere.com/v2/reference/about
+     |                    ^
+  35 | '
+  36 |     //process.env.REACT_APP_COHERE_API_URL;
+  37 |     const apiKey = process.env.REACT_APP_COHERE_KE;
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at Object.unterminated (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2395:20)
+    at readStringContents (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2137:16)
+    at FlowParserMixin.readString (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3226:9)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2986:14)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:6970:11)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5419:13)
+    at FlowParserMixin.nextToken (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2510:10)
+    at FlowParserMixin.next (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2423:10)
+    at FlowParserMixin.eat (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2427:12)
+    at FlowParserMixin.parseVar (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13028:25)
+    at FlowParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12874:10)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseTryStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12849:23)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12443:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12534:25)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 34:19:  Parsing error: Unterminated string constant. (34:19)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Missing semicolon. (36:21) (36:21)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Missing semicolon. (36:21)
+
+  34 |     const apiUrl = 'https://docs.cohere.com/v2/reference/about'
+  35 |     //process.env.REACT_APP_COHERE_API_URL;
+> 36 |     const apiKey = ''p//rocess.env.REACT_APP_COHERE_KE;
+     |                      ^
+  37 |
+  38 |     console.log("API URL:", apiUrl);
+  39 |     console.log("API KEY:", apiKey ? "Loaded ✅" : "Missing ❌");
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.semicolon (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3653:10)
+    at FlowParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12875:10)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseTryStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12849:23)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12443:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12534:25)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12430:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12383:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:36)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseProgram (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12280:10)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12270:25)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 36:21:  Parsing error: Missing semicolon. (36:21)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Missing semicolon. (36:21) (36:21)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Missing semicolon. (36:21)
+
+  34 |     const apiUrl = 'https://docs.cohere.com/v2/reference/about'
+  35 |     //process.env.REACT_APP_COHERE_API_URL;
+> 36 |     const apiKey = ''rocess.env.REACT_APP_COHERE_KE;
+     |                      ^
+  37 |
+  38 |     console.log("API URL:", apiUrl);
+  39 |     console.log("API KEY:", apiKey ? "Loaded ✅" : "Missing ❌");
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.semicolon (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3653:10)
+    at FlowParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12875:10)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseTryStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12849:23)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12443:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12534:25)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12430:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12383:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:36)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseProgram (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12280:10)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12270:25)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 36:21:  Parsing error: Missing semicolon. (36:21)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Missing semicolon. (36:21) (36:21)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Missing semicolon. (36:21)
+
+  34 |     const apiUrl = 'https://docs.cohere.com/v2/reference/about'
+  35 |     //process.env.REACT_APP_COHERE_API_URL;
+> 36 |     const apiKey = ''process.env.REACT_APP_COHERE_KE;
+     |                      ^
+  37 |
+  38 |     console.log("API URL:", apiUrl);
+  39 |     console.log("API KEY:", apiKey ? "Loaded ✅" : "Missing ❌");
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.semicolon (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3653:10)
+    at FlowParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12875:10)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseTryStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12849:23)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12443:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12534:25)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12430:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12383:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:36)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseProgram (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12280:10)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12270:25)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 36:21:  Parsing error: Missing semicolon. (36:21)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+  Line 117:25:  'sendMessage' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/ChatPage.js
+  Line 9:20:   'setMessages' is assigned a value but never used  no-unused-vars
+  Line 16:19:  'setWaiting' is assigned a value but never used   no-unused-vars
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 117:25:  'sendMessage' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Unexpected token (35:4) (35:4)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Unexpected token (35:4)
+
+  33 |   try {
+  34 |     const API_URL = //process.env.REACT_APP_CHAT_API_URL;
+> 35 |     const API_KEY = process.env.REACT_APP_CHAT_API_KEY;
+     |     ^
+  36 |
+  37 |     console.log("🔧 API URL:", API_URL);
+  38 |     console.log("🔐 API KEY:", API_KEY ? "Loaded ✅" : "Missing ❌");
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.unexpected (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3347:16)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11126:16)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5773:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseVar (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13028:91)
+    at FlowParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12874:10)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseTryStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12849:23)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12443:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12534:25)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 35:4:  Parsing error: Unexpected token (35:4)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Unexpected token (35:4) (35:4)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Unexpected token (35:4)
+
+  33 |   try {
+  34 |     const API_URL = //process.env.REACT_APP_CHAT_API_URL;
+> 35 |     const API_KEY = //process.env.REACT_APP_CHAT_API_KEY;
+     |     ^
+  36 |
+  37 |     console.log("🔧 API URL:", API_URL);
+  38 |     console.log("🔐 API KEY:", API_KEY ? "Loaded ✅" : "Missing ❌");
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.unexpected (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3347:16)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11126:16)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5773:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseVar (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13028:91)
+    at FlowParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12874:10)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseTryStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12849:23)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12443:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12534:25)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 35:4:  Parsing error: Unexpected token (35:4)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Unexpected token (35:4) (35:4)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Unexpected token (35:4)
+
+  33 |   try {
+  34 |     const API_URL = //process.env.REACT_APP_CHAT_API_URL;
+> 35 |     const API_KEY = ''//process.env.REACT_APP_CHAT_API_KEY;
+     |     ^
+  36 |
+  37 |     console.log("🔧 API URL:", API_URL);
+  38 |     console.log("🔐 API KEY:", API_KEY ? "Loaded ✅" : "Missing ❌");
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.unexpected (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3347:16)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11126:16)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5773:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseVar (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13028:91)
+    at FlowParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12874:10)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseTryStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12849:23)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12443:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12534:25)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 35:4:  Parsing error: Unexpected token (35:4)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Unexpected token (35:4) (35:4)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Unexpected token (35:4)
+
+  33 |   try {
+  34 |     const API_URL = //process.env.REACT_APP_CHAT_API_URL;
+> 35 |     const API_KEY = 'xyV9r163fmM8ieMhIFAUbmymr6DakgKJ8wj520lv'//process.env.REACT_APP_CHAT_API_KEY;
+     |     ^
+  36 |
+  37 |     console.log("🔧 API URL:", API_URL);
+  38 |     console.log("🔐 API KEY:", API_KEY ? "Loaded ✅" : "Missing ❌");
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.unexpected (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3347:16)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11126:16)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5773:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseVar (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13028:91)
+    at FlowParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12874:10)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseTryStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12849:23)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12443:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12534:25)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 35:4:  Parsing error: Unexpected token (35:4)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Unexpected token (36:4) (36:4)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Unexpected token (36:4)
+
+  34 |     const API_URL = 
+  35 |     //process.env.REACT_APP_CHAT_API_URL;
+> 36 |     const API_KEY = 'xyV9r163fmM8ieMhIFAUbmymr6DakgKJ8wj520lv'//process.env.REACT_APP_CHAT_API_KEY;
+     |     ^
+  37 |
+  38 |     console.log("🔧 API URL:", API_URL);
+  39 |     console.log("🔐 API KEY:", API_KEY ? "Loaded ✅" : "Missing ❌");
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.unexpected (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3347:16)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11126:16)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5773:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseVar (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13028:91)
+    at FlowParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12874:10)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseTryStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12849:23)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12443:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12534:25)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 36:4:  Parsing error: Unexpected token (36:4)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Unexpected token (36:4) (36:4)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Unexpected token (36:4)
+
+  34 |     const API_URL = 
+  35 |     //process.env.REACT_APP_CHAT_API_URL;
+> 36 |     const API_KEY = 'xyV9r163fmM8ieMhIFAUbmymr6DakgKJ8wj520lv'
+     |     ^
+  37 |     //process.env.REACT_APP_CHAT_API_KEY;
+  38 |
+  39 |     console.log("🔧 API URL:", API_URL);
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.unexpected (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3347:16)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11126:16)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5773:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseVar (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13028:91)
+    at FlowParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12874:10)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseTryStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12849:23)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12443:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12534:25)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 36:4:  Parsing error: Unexpected token (36:4)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Unterminated string constant. (34:19) (34:19)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Unterminated string constant. (34:19)
+
+  32 |
+  33 |   try {
+> 34 |     const API_URL ='https://docs.cohere.com/v2/reference/about
+     |                    ^
+  35 | ' 
+  36 |     //process.env.REACT_APP_CHAT_API_URL;
+  37 |     const API_KEY = 'xyV9r163fmM8ieMhIFAUbmymr6DakgKJ8wj520lv'
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at Object.unterminated (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2395:20)
+    at readStringContents (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2137:16)
+    at FlowParserMixin.readString (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3226:9)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2986:14)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:6970:11)
+    at FlowParserMixin.getTokenFromCode (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5419:13)
+    at FlowParserMixin.nextToken (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2510:10)
+    at FlowParserMixin.next (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2423:10)
+    at FlowParserMixin.eat (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:2427:12)
+    at FlowParserMixin.parseVar (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13028:25)
+    at FlowParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12874:10)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseTryStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12849:23)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12443:21)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+    at FlowParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12769:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12534:25)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11783:24)
+    at FlowParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5117:11)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11769:10)
+    at FlowParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5125:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13085:12
+    at FlowParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12077:14)
+    at FlowParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13084:10)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 34:19:  Parsing error: Unterminated string constant. (34:19)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+  Line 48:30:  'x' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 48:30:  'x' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/ChatPage.js
+Syntax error: Unexpected token (57:0) (57:undefined)
+ERROR in ./src/pages/ChatPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src/pages/ChatPage.js: Unexpected token (57:0)
+
+  55 |         })),
+  56 |       }),
+> 57 | ``});
+     | ^
+  58 |
+  59 |     if (!response.ok) {
+  60 |       const err = await response.text();
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.unexpected (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:3347:16)
+    at FlowParserMixin.parsePropertyName (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11707:18)
+    at FlowParserMixin.parsePropertyDefinition (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11575:10)
+    at FlowParserMixin.parseObjectLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11516:21)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11024:23)
+    at FlowParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:6937:20)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10758:23)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5773:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12100:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseExprListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11858:18)
+    at FlowParserMixin.parseCallExpressionArguments (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10927:22)
+    at FlowParserMixin.parseCoverCallAndAsyncArrowHead (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10861:29)
+    at FlowParserMixin.parseSubscript (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10798:19)
+    at FlowParserMixin.parseSubscript (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5874:18)
+    at FlowParserMixin.parseSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10771:19)
+    at FlowParserMixin.parseSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5840:18)
+    at FlowParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10762:17)
+    at FlowParserMixin.parseUpdate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10743:21)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10723:23)
+    at FlowParserMixin.parseAwait (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:11956:28)
+    at FlowParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10692:25)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10576:61)
+    at FlowParserMixin.parseExprOps (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10581:23)
+    at FlowParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10558:23)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10521:21)
+    at FlowParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5773:18)
+    at /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:39
+    at FlowParserMixin.allowInAnd (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12095:16)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:10491:17)
+    at FlowParserMixin.parseVar (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:13028:91)
+    at FlowParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12874:10)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12489:23)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12386:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12960:61)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12941:10)
+    at FlowParserMixin.parseTryStatement (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12849:23)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/@babel/parser/lib/index.js:12443:21)
+
+ERROR in [eslint] 
+src/pages/ChatPage.js
+  Line 57:  Parsing error: Unexpected token (57:0)
+
+webpack compiled with 2 errors
+Compiling...
+Compiled successfully!
 webpack compiled successfully
 Compiling...
 Compiled successfully!

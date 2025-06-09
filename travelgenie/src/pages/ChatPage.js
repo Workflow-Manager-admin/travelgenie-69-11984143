@@ -22,29 +22,76 @@ function ChatPage() {
   }, [messages]);
 
   async function sendMessage(e) {
-    e.preventDefault();
-    if (!input.trim()) return;
-    const userText = input.trim();
-    setMessages((prev) => [...prev, { sender: "user", text: userText }]);
-    setInput("");
-    setWaiting(true);
+  e.preventDefault();
+  if (!input.trim()) return;
 
-    // --- Replace demo with your AI chat endpoint as needed ---
-    await new Promise((r) => setTimeout(r, 700));
-    let aiReply = getDemoAIReply(userText);
+  const userText = input.trim();
+  setMessages((prev) => [...prev, { sender: "user", text: userText }]);
+  setInput("");
+  setWaiting(true);
 
+  try {
+    const API_URL ='https://api.cohere.ai/v1/chat' 
+    //process.env.REACT_APP_CHAT_API_URL;
+    const API_KEY = 'xyV9r163fmM8ieMhIFAUbmymr6DakgKJ8wj520lv'
+    //process.env.REACT_APP_CHAT_API_KEY;
+
+    //console.log("🔧 API URL:", API_URL);
+    //console.log("🔐 API KEY:", API_KEY ? "Loaded ✅" : "Missing ❌");
+
+    const response = await fetch(API_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${API_KEY}`,
+      },
+      body: JSON.stringify({
+        message: userText,
+        model: "command-r-plus", // or "command-r" depending on your plan
+        temperature: 0.7,
+        chat_history: messages.map((msg) => ({
+          role: msg.sender === "user" ? "USER" : "CHATBOT",
+          message: msg.text,
+        })),
+      }),
+  });
+
+    if (!response.ok) {
+      const err = await response.text();
+      console.error("❌ API Error:", response.status, err);
+      setMessages((prev) => [
+      ...prev,
+      { sender: "ai", text: `Error: ${err || 'Unknown issue occurred with the AI API.'}` },
+]);
+      //throw new Error("API request failed");
+    }
+
+    const data = await response.json();
+    console.log("✅ API Response:", data);
+    const aiReply = data.text || "Sorry, no useful answer returned.";
     setMessages((prev) => [...prev, { sender: "ai", text: aiReply }]);
-    setWaiting(false);
+  } catch (error) {
+    console.error("⚠️ Chat API Error:", error);
+    setMessages((prev) => [
+      ...prev,
+      { sender: "ai", text: "Oops! Something went wrong. Please try again later." },
+    ]);
   }
 
-  function getDemoAIReply(text) {
-    if (/bali|iceland|paris/i.test(text))
-      return `Great choice! Here are some top things to do in ${text.match(/bali|iceland|paris/i)[0].charAt(0).toUpperCase() + text.match(/bali|iceland|paris/i)[0].slice(1)}:\n• Explore local culture\n• Try local cuisine\n• Visit must-see attractions!`;
-    if (/pack|packing/i.test(text))
-      return "When packing for your trip, consider the climate and activities: bring layers, comfy shoes, and don't forget essential documents!";
-    if (/hello|hi|hey/i.test(text)) return "Hello! How can I assist you with your travel plans?";
-    return "That's an excellent question! Let me look up the best answer for you. 🌏";
-  }
+  setWaiting(false);
+}
+
+
+
+
+  //function getDemoAIReply(text) {
+   // if (/bali|iceland|paris/i.test(text))
+     // return `Great choice! Here are some top things to do in ${text.match(/bali|iceland|paris/i)[0].charAt(0).toUpperCase() + text.match(/bali|iceland|paris/i)[0].slice(1)}:\n• Explore local culture\n• Try local cuisine\n• Visit must-see attractions!`;
+    //if (/pack|packing/i.test(text))
+     // return "When packing for your trip, consider the climate and activities: bring layers, comfy shoes, and don't forget essential documents!";
+    //if (/hello|hi|hey/i.test(text)) return "Hello! How can I assist you with your travel plans?";
+    //return "That's an excellent question! Let me look up the best answer for you. 🌏";
+  //}
 
   return (
     <div>

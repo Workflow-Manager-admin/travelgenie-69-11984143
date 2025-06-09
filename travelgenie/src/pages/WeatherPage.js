@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // A demo API key - replace with your real key for production
-const OWM_API_KEY = "demo"; // Place your OpenWeatherMap API key here
+const OWM_API_KEY = "c8d2c05abce0a5d7f303c425e174d820"; // Place your OpenWeatherMap API key here
 
 // PUBLIC_INTERFACE
 function WeatherPage() {
