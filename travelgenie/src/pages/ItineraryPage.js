@@ -3,12 +3,15 @@ import React, { useState } from "react";
 // PUBLIC_INTERFACE
 function ItineraryPage() {
   /**
-   * Renders the Itinerary Page for entering a starting location and destination.
-   * Captures and reflects user input for the "From" and "To" fields.
+   * Renders the Itinerary Page for entering trip details.
+   * Captures user input for the "From", "To", "Start Date", and "End Date" fields.
+   * All inputs update the component state accordingly.
    */
   const [form, setForm] = useState({
     from: "",
     to: "",
+    startDate: "",
+    endDate: "",
   });
 
   // Handles changes to input fields and updates component state accordingly
@@ -16,11 +19,11 @@ function ItineraryPage() {
     setForm({ ...form, [e.target.name]: e.target.value });
   }
 
-  // Optionally handle form submit, though simply capturing and reflecting state is required here
+  // Handles form submission (for now, only reflects state)
   function handleSubmit(e) {
     e.preventDefault();
-    // Optionally you may process or validate/forward data here
-    // For now, do nothing more: state is already set
+    // Optional: trigger AI itinerary generation logic here
+    // For now, simply maintain state and provide UX feedback
   }
 
   return (
@@ -29,7 +32,7 @@ function ItineraryPage() {
         Plan Your Trip
       </div>
       <div className="description" style={{ maxWidth: 600, marginBottom: 22 }}>
-        Provide your departure and destination locations.
+        Enter your trip details to generate a personalized itinerary.
       </div>
       <form
         onSubmit={handleSubmit}
@@ -54,7 +57,54 @@ function ItineraryPage() {
                 value={form.from}
                 onChange={handleChange}
                 className="input"
-                placeholder="Enter starting location"
+                placeholder="Starting location (e.g., Mumbai)"
+                style={{
+                  padding: "7px 10px",
+                  width: "100%",
+                  border: "1px solid #B3D5FF",
+                  borderRadius: 4,
+                  fontSize: "1rem",
+                  marginTop: 4,
+                  marginBottom: 0,
+                }}
+                autoComplete="off"
+              />
+            </label>
+          </div>
+          <div>
+            <label>
+              To<span style={{ color: "#1E90FF" }}>*</span>:
+              <input
+                required
+                type="text"
+                name="to"
+                value={form.to}
+                onChange={handleChange}
+                className="input"
+                placeholder="Destination (e.g., Goa)"
+                style={{
+                  padding: "7px 10px",
+                  width: "100%",
+                  border: "1px solid #B3D5FF",
+                  borderRadius: 4,
+                  fontSize: "1rem",
+                  marginTop: 4,
+                  marginBottom: 0,
+                }}
+                autoComplete="off"
+              />
+            </label>
+          </div>
+          <div>
+            <label>
+              Start Date<span style={{ color: "#1E90FF" }}>*</span>:
+              <input
+                required
+                type="date"
+                name="startDate"
+                value={form.startDate}
+                onChange={handleChange}
+                className="input"
                 style={{
                   padding: "7px 10px",
                   width: "100%",
@@ -69,15 +119,14 @@ function ItineraryPage() {
           </div>
           <div>
             <label>
-              To<span style={{ color: "#1E90FF" }}>*</span>:
+              End Date<span style={{ color: "#1E90FF" }}>*</span>:
               <input
                 required
-                type="text"
-                name="to"
-                value={form.to}
+                type="date"
+                name="endDate"
+                value={form.endDate}
                 onChange={handleChange}
                 className="input"
-                placeholder="Enter destination"
                 style={{
                   padding: "7px 10px",
                   width: "100%",
@@ -97,20 +146,42 @@ function ItineraryPage() {
               background: "#1E90FF",
               color: "#fff",
               alignSelf: "start",
-              minWidth: 120,
-              marginTop: 8,
-              fontSize: "1.08rem"
+              minWidth: 160,
+              marginTop: 12,
+              fontSize: "1.10rem",
+              fontWeight: 600,
             }}
           >
-            Submit
+            Generate Itinerary
           </button>
         </div>
       </form>
       {/* Visual feedback below the form */}
-      <div style={{ marginTop: 18, color: "#222", background: "#F6F8FF", padding: "18px 20px", borderRadius: 6, maxWidth: 410 }}>
-        <div style={{ fontWeight: 600, color: "#1E90FF", marginBottom: 7 }}>Current Inputs:</div>
-        <div><b>From:</b> {form.from || <span style={{ color: "#888" }}>—</span>}</div>
-        <div><b>To:</b> {form.to || <span style={{ color: "#888" }}>—</span>}</div>
+      <div
+        style={{
+          marginTop: 18,
+          color: "#222",
+          background: "#F6F8FF",
+          padding: "18px 20px",
+          borderRadius: 6,
+          maxWidth: 410,
+        }}
+      >
+        <div style={{ fontWeight: 600, color: "#1E90FF", marginBottom: 7 }}>
+          Current Inputs:
+        </div>
+        <div>
+          <b>From:</b> {form.from || <span style={{ color: "#888" }}>—</span>}
+        </div>
+        <div>
+          <b>To:</b> {form.to || <span style={{ color: "#888" }}>—</span>}
+        </div>
+        <div>
+          <b>Start Date:</b> {form.startDate || <span style={{ color: "#888" }}>—</span>}
+        </div>
+        <div>
+          <b>End Date:</b> {form.endDate || <span style={{ color: "#888" }}>—</span>}
+        </div>
       </div>
     </div>
   );
