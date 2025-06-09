@@ -2,9 +2,9 @@
 > react-kavia@0.1.0 start
 > react-scripts start
 
-(node:1601) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:4197) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-(node:1601) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:4197) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 Starting the development server...
 
 Compiled successfully!
@@ -19,155 +19,14 @@ To create a production build, use npm run build.
 
 webpack compiled successfully
 Compiling...
-Failed to compile.
-
-Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src'
-ERROR in ./src/App.js 8:0-90
-Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src'
-
-webpack compiled with 1 error
+Compiled successfully!
+webpack compiled successfully
 Compiling...
-Failed to compile.
-
-Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src'
-LOG from webpack.FileSystemInfo
-<w> Managed item /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/react-router-dom isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
-+ 13 hidden lines
-
-ERROR in ./src/App.js 8:0-90
-Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/src'
-
-webpack compiled with 1 error
+Compiled successfully!
+webpack compiled successfully
 Compiling...
-Failed to compile.
-
-Attempted import error: 'BrowserRouter' is not exported from 'react-router-dom' (imported as 'Router').
-LOG from webpack.FileSystemInfo
-<w> Managed item /home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/react-router isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
-+ 13 hidden lines
-
-ERROR in ./src/App.js 19:30-36
-export 'BrowserRouter' (imported as 'Router') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 47:46-50
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 58:45-49
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 69:45-49
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 80:45-49
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 114:41-47
-export 'Routes' (imported as 'Routes') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 115:44-49
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 126:43-48
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 137:43-48
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 148:43-48
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 159:43-48
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 161:44-52
-export 'Navigate' (imported as 'Navigate') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./node_modules/react-router-dom/dist/index.mjs 13:0-66
-Module not found: Error: Can't resolve 'react-router/dom' in '/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/react-router-dom/dist'
-
-ERROR in ./node_modules/react-router-dom/dist/index.mjs 14:0-29
-Module not found: Error: Can't resolve 'react-router' in '/home/kavia/workspace/code-generation/travelgenie-69-11984143/travelgenie/node_modules/react-router-dom/dist'
-
-webpack compiled with 14 errors
+Compiled successfully!
+webpack compiled successfully
 Compiling...
-Failed to compile.
-
-Attempted import error: 'BrowserRouter' is not exported from 'react-router-dom' (imported as 'Router').
-ERROR in ./src/App.js 19:30-36
-export 'BrowserRouter' (imported as 'Router') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 47:46-50
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 58:45-49
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 69:45-49
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 80:45-49
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 114:41-47
-export 'Routes' (imported as 'Routes') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 115:44-49
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 126:43-48
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 137:43-48
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 148:43-48
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 159:43-48
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 161:44-52
-export 'Navigate' (imported as 'Navigate') was not found in 'react-router-dom' (module has no exports)
-
-webpack compiled with 12 errors
-Compiling...
-Failed to compile.
-
-Attempted import error: 'BrowserRouter' is not exported from 'react-router-dom' (imported as 'Router').
-ERROR in ./src/App.js 19:30-36
-export 'BrowserRouter' (imported as 'Router') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 47:46-50
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 58:45-49
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 69:45-49
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 80:45-49
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 114:41-47
-export 'Routes' (imported as 'Routes') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 115:44-49
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 126:43-48
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 137:43-48
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 148:43-48
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 159:43-48
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
-
-ERROR in ./src/App.js 161:44-52
-export 'Navigate' (imported as 'Navigate') was not found in 'react-router-dom' (module has no exports)
-
-webpack compiled with 12 errors
+Compiled successfully!
+webpack compiled successfully
