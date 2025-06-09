@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // PUBLIC_INTERFACE
-function ItineraryPage() {
+export default function ItineraryPage() {
   /**
    * Renders the Itinerary Page with form fields for 'From', 'To', 'Start Date', and 'End Date',
    * and a 'Generate Itinerary' button. Manages input state and provides a clear, structured UI.
@@ -156,5 +156,3 @@ function ItineraryPage() {
     </div>
   );
 }
-
-export default ItineraryPage;
